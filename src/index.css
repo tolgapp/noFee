@@ -2,6 +2,17 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: "exo2";
+  src: url("../public/font/exo2/Exo2-VariableFont_wght.ttf");
+}
+
+:root {
+  --black: #1a1a1d;
+  --violet: #f39b0e;
+  --white: #fff;
+}
+
 * {
   padding: 0;
   margin: 0;
@@ -10,5 +21,6 @@
 
 html {
   font-size: 10px;
+  font-family: exo2;
+  background-color: var(--white);
 }
-
