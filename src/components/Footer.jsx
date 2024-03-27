@@ -3,7 +3,7 @@ import info from "/src/assets/footer.json"
 
 const Footer = () => {
   return (
-    <footer className='relative'>
+    <footer className='p-20'>
       <FooterData info={info}/>
     </footer>
   )
