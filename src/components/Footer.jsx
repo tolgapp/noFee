@@ -1,10 +1,11 @@
-import React from 'react'
+import FooterData from './FooterData';
+import info from "/src/assets/footer.json"
 
 const Footer = () => {
   return (
-    <div>
-      
-    </div>
+    <footer className='relative'>
+      <FooterData info={info}/>
+    </footer>
   )
 }
 

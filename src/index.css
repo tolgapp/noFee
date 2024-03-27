@@ -4,13 +4,14 @@
 
 @font-face {
   font-family: "exo2";
-  src: url("../public/font/exo2/Exo2-VariableFont_wght.ttf");
+  src: url("/font/Exo2-VariableFont_wght.ttf");
 }
 
 :root {
   --black: #1a1a1d;
   --violet: #f39b0e;
   --white: #fff;
+  --gray: #EEEFF1;
 }
 
 * {

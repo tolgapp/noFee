@@ -1,0 +1,32 @@
+[
+    {
+      "id": 1,
+      "title": "24/7 Customer Support",
+      "description": "Get help and support whenever you need it from our friendly and knowledgeable team.",
+      "icon": "headset"
+    },
+    {
+      "id": 2,
+      "title": "High Interest Savings",
+      "description": "Earn a competitive 8% interest on your savings balance.",
+      "icon": "piggy-bank"
+    },
+    {
+      "id": 3,
+      "title": "Purchase Protection",
+      "description": "Get your purchases insured up to €1000 when you pay with your credit card.",
+      "icon": "shield"
+    },
+    {
+      "id": 4,
+      "title": "Travel Insurance",
+      "description": "Get comprehensive travel insurance coverage when you book your travel through the app.",
+      "icon": "airplane"
+    },
+    {
+      "id": 5,
+      "title": "Budgeting Tools",
+      "description": "Set up budgets, track your spending, and reach your financial goals with ease.",
+      "icon": "bar-chart"
+    }
+  ]
