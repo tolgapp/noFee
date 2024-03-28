@@ -1,0 +1,40 @@
+[
+  {
+    "id": 1,
+    "plan": "free",
+    "features": [
+      "Five free withdrawal worldwide",
+      "Free instant transfer",
+      "3% monthly payed dividends",
+      "Deposit cash twice a year for free",
+      "Cashback up to 5%"
+    ],
+    "price": "0,00"
+  },
+  {
+    "id": 2,
+    "plan": "pro",
+    "features": [
+      "Every feature from free plan",
+      "5% monthly payed dividends",
+      "20 free withdrawal worldwide",
+      "Pro telephone number for faster support",
+      "Five free cash deposits",
+      "Cashback up to 8%"
+    ],
+    "price": "9,95"
+  },
+  {
+    "id": 3,
+    "plan": "max",
+    "features": [
+      "Every feature from free and pro plans",
+      "8% monthly payed dividends",
+      "Limitless withdrawal worldwide",
+      "Partner visa debit card for free",
+      "Get 1% of your debit card payments back as stocks",
+      "Incl. yearly five Lounge entry on Star Alliance flights"
+    ],
+    "price": "14,95"
+  }
+]

@@ -4,7 +4,7 @@ import Footer from "./components/Footer";
 import Home from "./pages/Home";
 import Contact from "./pages/Contact";
 import "./index.css";
-import Products from "./pages/Products";
+import Plans from "./pages/Plans";
 import Service from "./pages/Service";
 
 function App() {
@@ -13,7 +13,7 @@ function App() {
       <Navbar />
       <Routes>
         <Route path={"/"} element={<Home />} />
-        <Route path={"/products"} element={<Products />} />
+        <Route path={"/plans"} element={<Plans />} />
         <Route path={"/service"} element={<Service />} />
         <Route path={"/contact"} element={<Contact />} />
       </Routes>

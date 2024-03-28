@@ -9,7 +9,7 @@ const ShortFeatures = () => {
       <div className="short flex flex-col border p-24 space-y-20 md:space-y-0 md:flex-row md:justify-between md:p-48">
         <section className="flex flex-col items-center">
             <img className="w-20 md:w-32 md:mb-3" src={dividens} alt="dividends " />
-            <h3 className="text-2xl md:text-4xl mt-4">8% Dividends</h3>
+            <h3 className="text-2xl md:text-4xl mt-4">up to 8% Dividends</h3>
         </section>
         <section className="flex flex-col items-center">
             <img className="w-20 md:w-32 md:mb-3" src={broker} alt="brokerage icon" />
