@@ -1,9 +1,6 @@
-import { useState } from "react";
 import { Link } from "react-router-dom";
 
 const Navbar = () => {
-
-  const [mobile, setMobile] = useState(false);
 
   return (
     <nav className="flex justify-between bg-white right-0 p-10 z-50 md:sticky md:top-0 md:left-0">
