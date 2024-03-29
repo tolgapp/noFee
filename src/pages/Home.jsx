@@ -12,7 +12,7 @@ const Home = () => {
   return (
     <>
       <div className="flex flex-col h-[calc(60vh)] place-content-center items-center bg-[url('/images/skylines.jpeg')] bg-cover md:h-screen">
-        <h1 className="text-4xl text-white drop-shadow-lg md:text-7xl ">
+        <h1 className="text-4xl text-white drop-shadow-lg sm:text-6xl md:text-7xl xl:text-9xl">
           ZER0 fees and moooore banking!
         </h1>
         <p className="text-white text-2xl mt-3  md:text-4xl">

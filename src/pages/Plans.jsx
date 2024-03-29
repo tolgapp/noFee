@@ -47,7 +47,7 @@ const Products = () => {
       </section>
       <section className="flex flex-col rounded-t-3xl mt-1 text-white place-content-center items-center border-b">
         <h3 className="text-black text-4xl md:text-6xl">Some of the cashback partners</h3>
-        <div className="flex mt-20 mb-20 flex-wrap place-content-center gap-8">
+        <div className="flex mt-20 mb-32 flex-wrap place-content-center gap-8">
           {src.map((elt) => {
             return (
               <img

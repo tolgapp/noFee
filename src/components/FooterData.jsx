@@ -10,7 +10,7 @@ const FooterData = ({ info }) => {
         return <p key={uuidv4()} className="text-3xl">{elt.text}</p>;
       })}
       <div className="flex flex-col md:flex-row">
-        <img src={apple} alt="" className="mr-4"/>
+        <img src={apple} alt="" className="mb-2 md:mb-0 md:mr-4"/>
         <img src={google} alt="" />
       </div>
     </div>
