@@ -11,7 +11,6 @@ const HomeData = ({ image, info, second }) => {
     }
   });
 
-
   return (
     <>
       <div
@@ -20,13 +19,15 @@ const HomeData = ({ image, info, second }) => {
         }`}
       >
         <div
-          className={`info w-full flex flex-col h-[calc(40vh)] place-content-center md:h-[calc(50vh)]`}
+          className={`info w-full flex flex-col h-[calc(40vh)] place-content-center md:h-[calc(35vh)]`}
         >
           {info.map((elt) => {
             return (
               <p
                 key={elt.id}
-                className={`functions ${plans ? "md:ml-10" : ""} text-left m-3 text-3xl ml-14 md:text-5xl md:m-6 md:ml-40 `}
+                className={`functions ${
+                  plans ? "md:ml-10" : ""
+                } text-left m-3 text-3xl ml-14 md:text-5xl md:m-6 md:ml-40 `}
               >
                 ▸ {elt.title}
               </p>

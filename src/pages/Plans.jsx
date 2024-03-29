@@ -13,16 +13,18 @@ const Products = () => {
         </h1>
         <h2 className="text-5xl text-center mt-4">
           Change the plan monthly in your app{" "}
-          <span className="underline">without fees!</span>
+          <span className="before:absolute before:-inset-2 before:-skew-y-2 before:bg-orange-500 relative inline-block">
+            <span className="underline relative text-white">without fees!</span>
+          </span>
         </h2>
       </section>
-      <section className="flex place-content-center mb-20">
-        <div className="plans flex flex-col md:flex-row m-8 mt-28">
+      <section className="flex place-content-center mb-20 ">
+        <div className="plans flex flex-col md:flex-row m-8 mt-28 ">
           {plans.map((elt) => {
             return (
               <div
                 key={elt.id}
-                className="w-full bg-black flex flex-col border-slate-900 border rounded-3xl m-2 p-10 space-y-8"
+                className="w-full bg-black flex flex-col border-slate-900 border rounded-3xl m-3 p-10 space-y-12 md:transition md:duration-300 md:ease-in-out md:hover:scale-105 md:hover:bg-slate-800"
               >
                 <h3 className="text-7xl text-white">
                   {elt.plan.toUpperCase()}
@@ -46,7 +48,9 @@ const Products = () => {
         </div>
       </section>
       <section className="flex flex-col rounded-t-3xl mt-1 text-white place-content-center items-center border-b">
-        <h3 className="text-black text-4xl md:text-6xl">Some of the cashback partners</h3>
+        <h3 className="text-black text-4xl md:text-6xl">
+          Some of the cashback partners
+        </h3>
         <div className="flex mt-20 mb-32 flex-wrap place-content-center gap-8">
           {src.map((elt) => {
             return (
