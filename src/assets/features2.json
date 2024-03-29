@@ -22,11 +22,5 @@
       "title": "Travel Insurance",
       "description": "Get comprehensive travel insurance coverage when you book your travel through the app.",
       "icon": "airplane"
-    },
-    {
-      "id": 5,
-      "title": "Budgeting Tools",
-      "description": "Set up budgets, track your spending, and reach your financial goals with ease.",
-      "icon": "bar-chart"
     }
   ]

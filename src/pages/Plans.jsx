@@ -1,4 +1,8 @@
 import plans from "../assets/plans.json";
+import src from "../assets/cashbackpartner.json";
+import ImageData from "../components/ImageData";
+import flight from "../assets/staralliance.json";
+import lounge2 from "/images/lounge2.jpg";
 
 const Products = () => {
   return (
@@ -12,8 +16,8 @@ const Products = () => {
           <span className="underline">without fees!</span>
         </h2>
       </section>
-      <section className="flex place-content-center">
-        <div className="plans flex m-8 mt-28">
+      <section className="flex place-content-center mb-20">
+        <div className="plans flex flex-col md:flex-row m-8 mt-28">
           {plans.map((elt) => {
             return (
               <div
@@ -28,7 +32,7 @@ const Products = () => {
                   {elt.features.map((elt) => {
                     return (
                       <p key={elt} className="text-3xl pt-6 text-white">
-                        {elt}
+                        • {elt}
                       </p>
                     );
                   })}
@@ -41,6 +45,22 @@ const Products = () => {
           })}
         </div>
       </section>
+      <section className="flex flex-col rounded-t-3xl mt-1 text-white place-content-center items-center border-b">
+        <h3 className="text-black text-4xl md:text-6xl">Some of the cashback partners</h3>
+        <div className="flex mt-20 mb-20 flex-wrap place-content-center gap-8">
+          {src.map((elt) => {
+            return (
+              <img
+                src={elt.image}
+                className="w-40 ml-8 mr-8 rounded-full border border-gray-100 p-2"
+                alt="cashback partner logo"
+                key={elt.id}
+              />
+            );
+          })}
+        </div>
+      </section>
+      <ImageData image={lounge2} info={flight} />
     </>
   );
 };

@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "image": "images/cashback1.jpg"
+  },
+  {
+    "id": 2,
+    "image": "images/cashback2.jpg"
+  },
+  {
+    "id": 3,
+    "image": "images/cashback3.png"
+  },
+  {
+    "id": 4,
+    "image": "images/cashback4.jpg"
+  },
+  {
+    "id": 5,
+    "image": "images/cashback5.png"
+  },
+  {
+    "id": 6,
+    "image": "images/cashback6.png"
+  },
+  {
+    "id": 7,
+    "image": "images/cashback7.png"
+  }
+]

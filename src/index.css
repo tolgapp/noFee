@@ -24,4 +24,5 @@ html {
   font-size: 10px;
   font-family: exo2;
   background-color: var(--white);
+  scroll-behavior: smooth;
 }

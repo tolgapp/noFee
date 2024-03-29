@@ -1,4 +1,4 @@
-import HomeData from "../components/HomeData";
+import HomeData from "../components/ImageData";
 import creditCard from "/images/creditcard.jpg";
 import features from "../../src/assets/features.json";
 import features2 from "../../src/assets/features2.json";
@@ -11,11 +11,11 @@ const Home = () => {
 
   return (
     <>
-      <div className="flex flex-col h-screen place-content-center items-center bg-[url('/images/skylines.jpeg')] bg-cover">
-        <h1 className="text-6xl ml-20 text-white drop-shadow-lg md:text-8xl xl:text-6xl">
+      <div className="flex flex-col h-[calc(60vh)] place-content-center items-center bg-[url('/images/skylines.jpeg')] bg-cover md:h-screen">
+        <h1 className="text-4xl text-white drop-shadow-lg md:text-7xl ">
           ZER0 fees and moooore banking!
         </h1>
-        <p className="text-white text-5xl mt-8 ml-20">
+        <p className="text-white text-2xl mt-3  md:text-4xl">
           Open your account in less then 10 minutes!
         </p>
       </div>

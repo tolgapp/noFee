@@ -1,9 +1,9 @@
 [
     {
       "id": 1,
-      "title": "Account Overview",
-      "description": "Check your account balances, transactions, and recent activity at a glance.",
-      "icon": "home"
+      "title": "Investment & Savings",
+      "description": "Open savings accounts, invest in stocks and shares, and track your financial goals.",
+      "icon": "investment"
     },
     {
       "id": 2,
@@ -22,12 +22,6 @@
       "title": "Card Management",
       "description": "View and manage your debit and credit cards, set spending limits, and report lost or stolen cards.",
       "icon": "card"
-    },
-    {
-      "id": 5,
-      "title": "Investment & Savings",
-      "description": "Open savings accounts, invest in stocks and shares, and track your financial goals.",
-      "icon": "investment"
     }
   
 ]

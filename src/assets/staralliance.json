@@ -1,0 +1,20 @@
+[
+    {
+      "id": 1,
+      "title": "Five free yearly entries",
+      "description": "Welcome! Feel you at home in every star alliance lounge!",
+      "icon": "lounge"
+    },
+    {
+      "id": 2,
+      "title": "Unlimited fresh made food and snacks",
+      "description": "Get the taste of fresh made Tapas, Kebabs and more!",
+      "icon": "food"
+    },
+    {
+      "id": 3,
+      "title": "Family & Friends become 50% for the entry price",
+      "description": "Pay your bills online with ease, set up automatic payments, and track your spending.",
+      "icon": "bill"
+    }
+]
