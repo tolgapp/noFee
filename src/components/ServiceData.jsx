@@ -3,7 +3,7 @@ const ServiceData = ({image, text, next}) => {
     <>
       <div className={`flex w-full ${next ? "flex-row-reverse" : ""}`}>
         <div className="w-1/2 place-content-center pl-12 pr-12 font-semibold bg-white">
-          <h2 className="text-8xl text-black">
+          <h2 className={`text-8xl text-black ${next ? 'pl-20' : '' }`}>
             {text}
           </h2>
         </div>
