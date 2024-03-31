@@ -1,15 +1,25 @@
-const ServiceData = ({image, text, next}) => {
+const ServiceData = ({ image, text, next }) => {
   return (
     <>
-      <div className={`flex w-full ${next ? "flex-row-reverse" : ""}`}>
-        <div className="w-1/2 place-content-center pl-12 pr-12 font-semibold bg-white">
-          <h2 className={`text-8xl text-black ${next ? 'pl-20' : '' }`}>
+      <div
+        className={`h-full flex flex-col place-content-center	 md:flex-row  ${
+          next ? "md:flex-row-reverse" : ""
+        }`}
+      >
+        <div className={`flex flex-col h-[calc(50vh)] md:w-1/2 md:pl-12 pl-12 pr-12 place-content-center	 self-center md:pr-12 font-semibold bg-white sm:h-max`}>
+          <h2
+            className={`text-5xl sm:text-6xl md:text-7xl text-black ${
+              next ? "md:pl-20" : ""
+            }`}
+          >
             {text}
           </h2>
         </div>
-        <article className="w-1/2">
-          <img className="" src={image} alt="24 / 7 Service" />
-        </article>
+        <img
+          className="w-full object-cover md:w-1/2 "
+          src={image}
+          alt="24 / 7 Service"
+        />
       </div>
     </>
   );

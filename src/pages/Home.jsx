@@ -12,12 +12,13 @@ const Home = () => {
   return (
     <>
       <div className="flex flex-col h-[calc(60vh)] place-content-center items-center bg-[url('/images/skyline1.jpeg')] bg-cover md:h-[calc(93vh)]">
-        <h1 className="text-4xl text-white drop-shadow-xl sm:text-6xl md:text-8xl xl:text-9xl">
+        <h1 className="text-4xl text-white drop-shadow-xl sm:text-6xl md:text-8xl xl:text-9xl z-20">
           ZER0 fees and moooore banking!
         </h1>
-        <p className="text-white text-2xl mt-3  md:text-4xl">
+        <p className="text-white text-2xl mt-3  md:text-4xl z-20">
           Open your account in less then 10 minutes!
         </p>
+        <p className="absolute opacity-10 text-[calc(50vh)]">▼</p>
       </div>
       <HomeData image={creditCard} info={features} />
       <HomeData image={skyline} info={features2} second={second} />
