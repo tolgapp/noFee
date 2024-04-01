@@ -2,7 +2,7 @@
     "redirects": [
       {
         "source": "/(.*)",
-        "destination": "nofee.vercel.app"
+        "destination": "/index.html"
       }
     ]
   }
