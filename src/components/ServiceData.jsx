@@ -7,7 +7,7 @@ const ServiceData = ({ image, text, next }) => {
         }`}
       >
         <div
-          className={`flex flex-col h-[calc(40vh)] place-content-center md:h-[calc(35vh)]`}
+          className={`flex flex-col h-[calc(44vh)] place-content-center md:h-[calc(38vh)]`}
         >
           <h2
             className={`text-5xl md:pl-12 pl-12 pr-12 md:pr-12  sm:text-6xl md:text-7xl text-black md:pt-12 ${

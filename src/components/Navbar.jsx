@@ -16,13 +16,25 @@ const Navbar = () => {
       <section className="flex md:place-content-center md:m-4">
         <h1 className="text-3xl font-bold ml-2 md:text-5xl">noFee ▼</h1>
       </section>
-      {mobile ? (<img src={xDark} className="sm:hidden w-20 z-50" onClick={handleMobile} />) : (<img src={burgerDark} className="sm:hidden w-12" onClick={handleMobile}/>) }
+      {mobile ? (
+        <img
+          src={xDark}
+          className="absolute sm:hidden w-20 z-50 top-4 right-4"
+          onClick={handleMobile}
+        />
+      ) : (
+        <img
+          src={burgerDark}
+          className="sm:hidden w-12"
+          onClick={handleMobile}
+        />
+      )}
       {mobile ? <MobileNav mobile={mobile} /> : null}
       <ul className="hidden sm:flex justify-between items-center space-x-8 text-2xl md:text-3xl">
         <Link to={"/"}>Home</Link>
         <Link to={"/plans"}>Plans</Link>
         <Link to={"/service"}>Service</Link>
-        <Link to={"/signup"} className="bg-stone-800 text-white p-3 rounded-xl">
+        <Link to={""} className="bg-stone-800 text-white p-3 rounded-xl">
           Sign Up
         </Link>
       </ul>
