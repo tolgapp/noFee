@@ -18,7 +18,9 @@ const Home = () => {
         <p className="text-white text-2xl mt-3  md:text-4xl z-20">
           Open your account in less then 10 minutes!
         </p>
-        <p className="absolute opacity-10 text-[calc(50vh)]">▼</p>
+        <p className="absolute opacity-10 text-[calc(20vh)] md:text-[calc(50vh)]">
+          ▼
+        </p>
       </div>
       <HomeData image={creditCard} info={features} />
       <HomeData image={skyline} info={features2} second={second} />
