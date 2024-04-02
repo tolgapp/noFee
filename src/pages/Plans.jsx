@@ -19,7 +19,7 @@ const Products = () => {
         </h2>
       </section>
       <section className="flex place-content-center mb-20 ">
-        <div className="plans flex flex-col md:flex-row m-8 mt-28 ">
+        <div className="plans flex flex-col items-center md:items-stretch md:flex-row m-8 mt-28 ">
           {plans.map((elt) => {
             return (
               <div

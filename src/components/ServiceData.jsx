@@ -2,12 +2,12 @@ const ServiceData = ({ image, text, next }) => {
   return (
     <>
       <div
-        className={`h-full flex flex-col md:flex-row  ${
+        className={`h-max flex flex-col md:flex-row ${
           next ? "md:flex-row-reverse" : null
         }`}
       >
         <div
-          className={`flex flex-col h-[calc(44vh)] place-content-center md:h-[calc(38vh)]`}
+          className={`flex flex-col md:w-1/2 items-center h-[calc(44vh)] place-content-center md:h-[calc(49vh)]`}
         >
           <h2
             className={`text-5xl md:pl-12 pl-12 pr-12 md:pr-12  sm:text-6xl md:text-7xl text-black md:pt-12 ${
