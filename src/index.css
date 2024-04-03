@@ -11,7 +11,7 @@
   --black: #1a1a1d;
   --violet: #f39b0e;
   --white: #fff;
-  --gray: #EEEFF1;
+  --gray: #eeeff1;
 }
 
 * {
@@ -25,4 +25,38 @@ html {
   font-family: exo2;
   background-color: var(--white);
   scroll-behavior: smooth;
+}
+
+.animated {
+  animation: slideIn 0.5s ease-in-out;
+}
+
+@keyframes slideIn {
+  from {
+    transform: translateY(10rem);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.slide {
+  animation: slideImage 1s ease-in-out;
+}
+
+.nothing {
+  opacity: 0;
+}
+
+@keyframes slideImage {
+  from {
+    transform: translateX(-50rem);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
 }

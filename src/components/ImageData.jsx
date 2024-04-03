@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import { useLocation } from "react-router-dom";
+import "../index.css";
 
 const HomeData = ({ image, info, second }) => {
   const location = useLocation("");
@@ -10,6 +11,25 @@ const HomeData = ({ image, info, second }) => {
       setPlans(true);
     }
   });
+
+  const [slideIn, setSlideIn] = useState(false);
+  const slideClass = slideIn ? "slide" : "nothing";
+
+  useEffect(() => {
+    // Add a listener for the scroll event
+    window.addEventListener("scroll", () => {
+      if (window.scrollY > 500) {
+        setSlideIn(true);
+      } else {
+        setSlideIn(false);
+      }
+    });
+
+    // Cleanup function to remove the listener when the component unmounts
+    return () => {
+      window.removeEventListener("scroll", () => {});
+    };
+  }, []);
 
   return (
     <>
@@ -37,7 +57,7 @@ const HomeData = ({ image, info, second }) => {
         <img
           src={image}
           alt="debit card"
-          className="w-full object-cover md:w-1/2"
+          className={`w-full object-cover md:w-1/2 ${slideClass}`}
         />
       </div>
     </>
