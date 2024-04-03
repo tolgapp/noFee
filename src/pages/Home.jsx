@@ -12,7 +12,9 @@ const Home = () => {
   return (
     <>
       <div className="flex flex-col h-[calc(60vh)] place-content-center items-center bg-[url('/images/skyline1.jpeg')] bg-cover md:h-[calc(93vh)]">
-        <h1 className="text-4xl text-white drop-shadow-xl sm:text-6xl md:text-8xl xl:text-9xl z-20">
+        <h1
+          className="text-4xl text-white drop-shadow-xl sm:text-6xl md:text-8xl xl:text-9xl z-20"
+        >
           ZER0 fees and moooore banking!
         </h1>
         <p className="text-white text-2xl mt-3  md:text-4xl z-20">
