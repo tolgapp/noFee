@@ -16,16 +16,14 @@ const HomeData = ({ image, info, second }) => {
   const slideClass = slideIn ? "slide" : "nothing";
 
   useEffect(() => {
-    // Add a listener for the scroll event
+    // Listener for the scroll event
     window.addEventListener("scroll", () => {
       if (window.scrollY > 500) {
         setSlideIn(true);
-      } else {
-        setSlideIn(false);
-      }
+      } 
     });
 
-    // Cleanup function to remove the listener when the component unmounts
+    // Removing the listener when the component unmounts
     return () => {
       window.removeEventListener("scroll", () => {});
     };

@@ -1,6 +1,7 @@
 import service from "/images/service.png";
 import mail from "/images/mail.png"
 import ServiceData from "../components/ServiceData";
+import CreditCalulator from "../components/CreditCalulator";
 
 const Service = () => {
 
