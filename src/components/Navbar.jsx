@@ -14,7 +14,7 @@ const Navbar = () => {
   return (
     <nav className="flex drop-shadow-md justify-between bg-white right-0 p-8 z-40 md:z-50 sticky top-0 left-0">
       <section className="flex md:place-content-center md:m-4">
-        <h1 className="text-3xl font-bold ml-2 md:text-5xl">noFee ▼</h1>
+      <Link to={"/"}><h1 className="text-3xl font-bold ml-2 md:text-5xl">noFee ▼</h1></Link>
       </section>
       {mobile ? (
         <img
